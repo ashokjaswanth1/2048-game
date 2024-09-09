@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  background-color:  #283747 ;
+}
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: grey;
+    border: 6px solid #17202a;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid  #424949 ;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-color: #45b39d;
+    color: white;
+}
+
+.x4 {
+    background-color:   #5499c7  ;
+    color: white;
+}
+
+.x8 {
+    background-color:  #2980b9 ;
+    color: white;
+}
+
+.x16{
+    background-color:  #27ae60 ;
+    color: white;
+}
+
+.x32{
+    background-color:  #f4d03f;
+    color: white;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128{
+    background-color:  #5b2c6f ;
+    color: white;
+}
+
+.x256{
+    background-color:#9c640c;
+    color: white;
+}
+
+.x512{
+    background-color: #e74c3c;
+    color: white;
+}
+
+.x1024{
+    background-color:  #d35400 ;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+}
